@@ -1,4 +1,2 @@
-//Hide warning
-jQuery(".warning").hide();
-//Show warning slowly
-jQuery(".warning").show("slow");
+//Hide warning and show warning slowly
+$(".warning").hide().show("slow");
