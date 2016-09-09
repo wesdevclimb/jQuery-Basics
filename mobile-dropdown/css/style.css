@@ -41,11 +41,16 @@ ul li.selected a {
 }
 
 select {
+<<<<<<< HEAD
 	width: 84%;
+=======
+	width: 94%;
+>>>>>>> 5d94b8a1e5d4746b6717971b43d2498f25576821
 	margin: 11px  0 11px 2%;
 	float: left;
 }
 
+<<<<<<< HEAD
 button {
 	display: inline-block;
 	line-height: 18px;
@@ -54,6 +59,8 @@ button {
 	float: right;
 	width: 10%;
 }
+=======
+>>>>>>> 5d94b8a1e5d4746b6717971b43d2498f25576821
 h1 {
 	margin: 40px 0 10px;
 	text-align: center;
@@ -63,4 +70,23 @@ p {
 	text-align: center;
 	color: #777;
 }
+<<<<<<< HEAD
 /** Start Coding Here **/
+=======
+/**
+modify css to hide links on small widths and show button and select
+hide button and select on larger widths
+**/
+
+@media (min-width: 320px) and (max-width: 568px) {
+	#menu ul {
+		display: none;
+	}
+}
+
+@media (min-width: 568px){
+	#menu select, #menu button {
+		display: none;
+	}
+}
+>>>>>>> 5d94b8a1e5d4746b6717971b43d2498f25576821
